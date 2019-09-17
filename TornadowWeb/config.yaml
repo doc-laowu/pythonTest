@@ -1,0 +1,6 @@
+#测试pyyaml的配置文件的读取
+
+USER:
+    NAME: 'tom'
+    AGE: 22
+    ADDRESS: '朝阳区'
