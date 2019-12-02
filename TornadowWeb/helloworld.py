@@ -17,8 +17,7 @@
 #     app = make_app()
 #     app.listen(8888)
 #     tornado.ioloop.IOLoop.current().start()
-
-
+import threading
 
 import tornado.ioloop
 import tornado.web
@@ -35,6 +34,7 @@ define('port', type=int, default=8080)
 #创建视图处理器
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
+        print(threading.current_thread().getName())
         self.write("<h1>hello，world</h1>")
         self.finish()
 

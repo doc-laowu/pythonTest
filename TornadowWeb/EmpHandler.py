@@ -1,3 +1,6 @@
+import json
+import threading
+
 import tornado
 from tornado.gen import coroutine
 from tornado.web import asynchronous
@@ -26,6 +29,9 @@ class EmpHandler(tornado.web.RequestHandler):
     # @coroutine
     async def get(self):
         try:
+
+            print(threading.current_thread().getName())
+
             employeeNumber = self.get_argument("employeeNumber")
             print("employeeNumber: " + employeeNumber)
             rs = await get_emp_data_by_id(employeeNumber)
@@ -72,3 +78,16 @@ async def get_emp_data_by_id(param):
           yiibaidb.employees
           WHERE employeeNumber = %s"""
     return dba.data_inquiry_all(sql, param)
+
+def get_emp_data_by_id():
+    sql = """SELECT 
+          employeeNumber,
+          lastName,
+          firstName, 
+          email
+          FROM 
+          yiibaidb.employees
+          LIMIT 30"""
+    return dba.data_inquiry_all(sql)
+
+print(json.dumps(get_emp_data_by_id()))

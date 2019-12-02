@@ -1,5 +1,7 @@
 import traceback
 
+import pymysql
+
 from dbTest.DBConnPool import DBConnPool
 
 
@@ -14,7 +16,7 @@ class DBAction():
             print(db_pool_ins)
         self.conn = db_pool_ins.get_connection()
         #获取操作游标
-        self.cursor = self.conn.cursor()
+        self.cursor = self.conn.cursor(cursor=pymysql.cursors.DictCursor)
 
     def close_database(self):
         self.cursor.close()
@@ -85,3 +87,5 @@ class DBAction():
 
 global dba
 dba = DBAction()
+
+exp3 = lambda x:x+1 if not 2==1 else 0
