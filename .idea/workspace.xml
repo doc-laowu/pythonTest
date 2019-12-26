@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4b3c950-6363-4fdb-bddb-4074cb54c6cc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/FormatJson/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FormatJson/push_fact_user_no_payed.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/KafkaTest/ConfluentKafkaClient.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/KafkaTest/KafkaProducer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/KafkaTest/Singleton.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/KafkaTest/pythonkafka.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/OOP/GzTimedRotatingFileHandler.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/OOP/Logger.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/TornadowWeb/EmpHandler.py" afterPath="$PROJECT_DIR$/TornadowWeb/EmpHandler.py" />
-      <change beforePath="$PROJECT_DIR$/TornadowWeb/helloworld.py" afterPath="$PROJECT_DIR$/TornadowWeb/helloworld.py" />
-      <change beforePath="$PROJECT_DIR$/dbTest/DBAction.py" afterPath="$PROJECT_DIR$/dbTest/DBAction.py" />
-      <change beforePath="$PROJECT_DIR$/dbTest/DBConnPool.py" afterPath="$PROJECT_DIR$/dbTest/DBConnPool.py" />
+      <change beforePath="$PROJECT_DIR$/KafkaTest/Singleton.py" afterPath="$PROJECT_DIR$/KafkaTest/Singleton.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,31 +37,22 @@
     <SUITE FILE_PATH="coverage/pythonTest$LinerRegresion.coverage" NAME="LinerRegresion Coverage Results" MODIFIED="1568774646722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML" />
     <SUITE FILE_PATH="coverage/pythonTest$test.coverage" NAME="test Coverage Results" MODIFIED="1565343946315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbTest" />
     <SUITE FILE_PATH="coverage/pythonTest$asyncioTest1.coverage" NAME="asyncioTest1 Coverage Results" MODIFIED="1565604054561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CoroutineEg" />
-    <SUITE FILE_PATH="coverage/pythonTest$Singleton.coverage" NAME="Singleton Coverage Results" MODIFIED="1575254940033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KafkaTest" />
+    <SUITE FILE_PATH="coverage/pythonTest$Singleton.coverage" NAME="Singleton Coverage Results" MODIFIED="1576137726837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KafkaTest" />
     <SUITE FILE_PATH="coverage/pythonTest$numpyTest.coverage" NAME="numpyTest Coverage Results" MODIFIED="1550472955052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np" />
     <SUITE FILE_PATH="coverage/pythonTest$yamlTest.coverage" NAME="yamlTest Coverage Results" MODIFIED="1565332074026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TornadowWeb" />
     <SUITE FILE_PATH="coverage/pythonTest$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1573112073412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TornadowWeb" />
+    <SUITE FILE_PATH="coverage/pythonTest$Logger.coverage" NAME="Logger Coverage Results" MODIFIED="1577256884125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
     <SUITE FILE_PATH="coverage/pythonTest$oopTest.coverage" NAME="oopTest Coverage Results" MODIFIED="1565606472557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
     <SUITE FILE_PATH="coverage/pythonTest$task_master.coverage" NAME="task_master Coverage Results" MODIFIED="1565666226863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
     <SUITE FILE_PATH="coverage/pythonTest$metaclassTest.coverage" NAME="metaclassTest Coverage Results" MODIFIED="1565607773153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Singleton.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Singleton.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KafkaTest/Singleton.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBAction.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dbTest/DBAction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="376">
+              <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -76,13 +60,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBConnPool.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dbTest/DBConnPool.py">
+      <file leaf-file-name="Logger.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP/Logger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            <state relative-caret-position="395">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
-                <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GzTimedRotatingFileHandler.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OOP/GzTimedRotatingFileHandler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,6 +110,10 @@
       <find>0x000002016C5B3C50</find>
       <find>0x000002016C5A96A0</find>
       <find>0x0000026B4D953C50</find>
+      <find>0x0000020A781570F0</find>
+      <find>0x0000027CB3C59E80</find>
+      <find>0x000001801A049E80</find>
+      <find>doRollover</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,8 +153,10 @@
         <option value="$PROJECT_DIR$/KafkaTest/ConfluentKafkaClient.py" />
         <option value="$PROJECT_DIR$/dbTest/DBAction.py" />
         <option value="$PROJECT_DIR$/KafkaTest/pythonkafka.py" />
-        <option value="$PROJECT_DIR$/KafkaTest/Singleton.py" />
         <option value="$PROJECT_DIR$/dbTest/DBConnPool.py" />
+        <option value="$PROJECT_DIR$/OOP/GzTimedRotatingFileHandler.py" />
+        <option value="$PROJECT_DIR$/KafkaTest/Singleton.py" />
+        <option value="$PROJECT_DIR$/OOP/Logger.py" />
       </list>
     </option>
   </component>
@@ -186,18 +188,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="pythonTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonTest" type="462c0819:PsiDirectoryNode" />
-              <item name="dbTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pythonTest" type="b2602c69:ProjectViewProjectNode" />
@@ -209,11 +205,22 @@
               <item name="pythonTest" type="462c0819:PsiDirectoryNode" />
               <item name="KafkaTest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pythonTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonTest" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonTest" type="462c0819:PsiDirectoryNode" />
+              <item name="TornadowWeb" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Singleton">
+  <component name="RunManager" selected="Python.Logger">
     <configuration name="EmpHandler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,6 +290,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Logger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Singleton" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,25 +323,6 @@
       <module name="pythonTest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KafkaTest/Singleton.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="helloworld" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TornadowWeb" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pythonTest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TornadowWeb/helloworld.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,19 +348,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.helloworld" />
-      <item index="1" class="java.lang.String" itemvalue="Python.EmpHandler" />
-      <item index="2" class="java.lang.String" itemvalue="Python.KafkaProducer" />
-      <item index="3" class="java.lang.String" itemvalue="Python.pythonkafka" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Singleton" />
+      <item index="0" class="java.lang.String" itemvalue="Python.EmpHandler" />
+      <item index="1" class="java.lang.String" itemvalue="Python.KafkaProducer" />
+      <item index="2" class="java.lang.String" itemvalue="Python.pythonkafka" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Singleton" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Logger" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Singleton" />
-        <item index="1" class="java.lang.String" itemvalue="Python.pythonkafka" />
-        <item index="2" class="java.lang.String" itemvalue="Python.KafkaProducer" />
-        <item index="3" class="java.lang.String" itemvalue="Python.EmpHandler" />
-        <item index="4" class="java.lang.String" itemvalue="Python.helloworld" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Logger" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Singleton" />
+        <item index="2" class="java.lang.String" itemvalue="Python.pythonkafka" />
+        <item index="3" class="java.lang.String" itemvalue="Python.KafkaProducer" />
+        <item index="4" class="java.lang.String" itemvalue="Python.EmpHandler" />
       </list>
     </recent_temporary>
   </component>
@@ -388,11 +395,11 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5005417" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49945828" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23880596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2468017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -421,34 +428,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/multiprocessing/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/np/numpyTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoroutineEg/asyncioTest1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="85" column="46" lean-forward="true" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoroutineEg/decorateTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CoroutineEg/futureTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -715,6 +694,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1072250519/confluent_kafka/cimpl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1059">
+          <caret line="1417" column="12" lean-forward="false" selection-start-line="1417" selection-start-column="12" selection-end-line="1417" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TornadowWeb/EmpHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="63" column="27" lean-forward="true" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbTest/DBConnPool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbTest/DBAction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaTest/pythonkafka.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KafkaTest/KafkaProducer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -723,71 +737,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1072250519/confluent_kafka/cimpl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1059">
-          <caret line="1417" column="12" lean-forward="false" selection-start-line="1417" selection-start-column="12" selection-end-line="1417" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaTest/pythonkafka.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FormatJson/push_fact_user_no_payed.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbTest/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KafkaTest/ConfluentKafkaClient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TornadowWeb/EmpHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="63" column="27" lean-forward="true" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
-          <folding>
-            <marker date="1573123604009" expanded="true" signature="1887:2059" ph="SELECT emplo... employees" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbTest/DBConnPool.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbTest/DBAction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
+          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KafkaTest/Singleton.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        <state relative-caret-position="376">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/Logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TornadowWeb/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/GzTimedRotatingFileHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
