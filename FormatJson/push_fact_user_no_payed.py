@@ -14,13 +14,10 @@ if(len(sys.argv) == 4):
     file_path = sys.argv[3]
     cur_date = sys.argv[4]
 else:
-    business_uid = 5300001
-    group_id = 23800002
     file_path = "C:\\Users\\gaosen\\Desktop\\data.file"
     cur_date = (datetime.date.today() + datetime.timedelta(-1)).strftime("%Y%m%d")
 
 # 导数据的url
-url="http://test-api-bc.vhall.domain/consumer/user-import"
 #
 # # 将数据导出到本地中
 # HQL='''SELECT
