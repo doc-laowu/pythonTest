@@ -1,24 +1,158 @@
 #-*- coding: UTF-8 -*-
+import json
+import random
 from queue import Empty
 
 import time
 from pykafka import KafkaClient
 
-client = KafkaClient(hosts="192.168.52.129:9092,192.168.52.130:9092,192.168.52.131:9092")
-topic = client.topics['data_sync_user_log_statistics']
+client = KafkaClient(hosts="*")
+topic = client.topics['test_sink_new_client_ods_latest']
 
 producer = topic.get_producer(delivery_reports=True)
 
+ip = ['*']
+
 count = 0
-for i in range(10000):
+for i in range(1000):
     count += 1
-    producer.produce(bytes("""{"consumer_uid": "83200002", "activity_id": "271565014", "business_uid": "5300002", "bu": 0, "watch_live_time": 491, 
-    "watch_replay_time": 0, "watch_replay_count": "", "chat_count": 0, "share_count": 1, "invite_friends_count": 0, "attention_goods_count": "", 
-    "market_channel": "0", "is_concern": "0", "is_apply": "1", "is_order": "1", "computer_common_browser": "", "times_computer_common_browser": "", 
-    "mobile_common_browser": "", "times_mobile_common_browser": "", "first_visited_at": "2019-11-22 18:59:25", 
-    "last_visited_at": "2019-11-22 19:21:15", "src_ip": "1.119.193.36", "country": "\u4e2d\u56fd", "province": "\u5317\u4eac", 
-    "city": "\u5317\u4eac", "device": "Windows", "guide_page_leave_at": "2019-11-22 19:21:15", "guide_page_join_at": "2019-11-22 18:59:25", 
-    "browser": "Chrome", "dc_updated_time": "2019-11-25 09:55:41", "score": 6.0, "t_version": "v_0"}""", encoding='utf-8'))
+
+    src_ip = ip[random.randint(0, 4)]
+
+    nginx_utc_datetime = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
+
+    data = {
+        "tt": "30000",
+        "code": "182004",
+        "mod": "18",
+        "vtype": "2",
+        "bitrate": "646",
+        "type": "2",
+        "process_time": "2020-08-04 10:43:31",
+        "videoHeight": "477",
+        "videoWidth": "848",
+        "src_ip": src_ip,
+        "uid": "15033544320",
+        "uf": "2387304",
+        "sd": "172.16.11.110:443",
+        "bu": "0",
+        "tag": "login",
+        "app_id": "1008611",
+        "errorcode": "2003",
+        "ver": "1.2.5",
+        "biz_role": "",
+        "os": "false",
+        "log_session": "13281423836",
+        "_m": "",
+        "p": "847619034251956600",
+        "browser_name": "Chrome",
+        "tf": "37430",
+        "s": "13281423836",
+        "biz_des01": "",
+        "pf": "7",
+        "biz_des02": "1",
+        "nginx_utc_datetime": nginx_utc_datetime,
+        "biz_id": "",
+        "aid": "lss_9527nmsl",
+        "biz_id":"9527dream"
+    }
+    josn_str = json.dumps(data)
+
+    print("cur_date:" + nginx_utc_datetime + "; data:" + josn_str)
+
+    producer.produce(bytes(josn_str, encoding='utf-8'))
+
+
+    data = {
+        "tt": "30000",
+        "code": "182004",
+        "mod": "18",
+        "vtype": "2",
+        "bitrate": "808",
+        "type": "2",
+        "process_time": "2020-08-04 11:30:23",
+        "videoHeight": "480",
+        "videoWidth": "640",
+        "vid": "405",
+        "src_ip": src_ip,
+        "uid": "10000127",
+        "uf": "3018242",
+        "sd": "t-vrt-signal01.e.vhall.com:443",
+        "bu": "1",
+        "tag": "login",
+        "app_id": "1008611",
+        "errorcode": "2003",
+        "ver": "1.2.4",
+        "biz_role": "",
+        "os": "false",
+        "log_session": "13281423836",
+        "_m": "",
+        "p": "292966831933133600",
+        "browser_name": "Chrome",
+        "tf": "15366",
+        "s": "13281423836",
+        "biz_des01": "",
+        "pf": "7",
+        "biz_des02": "1",
+        "nginx_utc_datetime": nginx_utc_datetime,
+        "biz_id": "",
+        "vfid": "405",
+        "aid": "lss_9527nmsl"
+    }
+
+    josn_str = json.dumps(data)
+
+    print("cur_date:"+nginx_utc_datetime+"; data:"+josn_str)
+
+    producer.produce(bytes(josn_str, encoding='utf-8'))
+
+    data = {
+        "tt": "30000",
+        "code": "182004",
+        "mod": "18",
+        "vtype": "2",
+        "bitrate": "808",
+        "type": "2",
+        "process_time": "2020-08-04 11:30:23",
+        "videoHeight": "480",
+        "videoWidth": "640",
+        "vid": "405",
+        "src_ip": src_ip,
+        "uid": "10000127",
+        "uf": "3018242",
+        "sd": "t-vrt-signal01.e.vhall.com:443",
+        "bu": "2",
+        "tag": "login",
+        "app_id": "1008611",
+        "errorcode": "2003",
+        "ver": "1.2.4",
+        "biz_role": "",
+        "os": "false",
+        "log_session": "13281423836",
+        "_m": "",
+        "p": "292966831933133600",
+        "browser_name": "Chrome",
+        "tf": "15366",
+        "s": "13281423836",
+        "biz_des01": "",
+        "pf": "7",
+        "biz_des02": "1",
+        "nginx_utc_datetime": nginx_utc_datetime,
+        "biz_id": "",
+        "vfid": "405",
+        "aid": "lss_9527nmsl",
+        "biz_id": "9527dream"
+    }
+
+    josn_str = json.dumps(data)
+
+    print("cur_date:" + nginx_utc_datetime + "; data:" + josn_str)
+
+    producer.produce(bytes(josn_str, encoding='utf-8'))
+
+
+    time.sleep(10)
+
     if(count % 1000 == 0):
         while(True):
             try:
